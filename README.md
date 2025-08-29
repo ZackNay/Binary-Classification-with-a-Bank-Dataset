@@ -48,9 +48,9 @@ This solution achieves competitive performance primarily through exhaustive hype
 ## Project Structure
 
 ```
-├── train.csv                       # Training data
-├── test.csv                        # Test data
-├── train.ipynb                     # Main notebook (optimization + training)
+├── train.csv                    
+├── test.csv                      
+├── train.ipynb                     # Main notebook 
 ├── submission_probabilities.csv    # Final predictions
 ├── feature_importance_final.csv    # Feature rankings
 ├── final_lgbm_model_optimized.txt  # Saved model
