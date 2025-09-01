@@ -10,7 +10,7 @@ LightGBM Solution with Exhaustive Hyperparameter Optimization for Kaggle Playgro
 
 ## Summary
 
-This solution achieves competitive performance primarily through exhaustive hyperparameter optimization rather than feature engineering. Since I joined the competition only 5 days before the submission deadline, I prioritized tuning the LightGBM configuration, running over 10,000 Optuna trials with rigorous cross-validation. This process yielded a robust GBDT model capable of effectively handling the dataset’s class imbalance and categorical features without additional preprocessing. Although resource constraints forced me to stop training early, the approach still resulted in an okay final standing of /.
+This solution achieves competitive performance primarily through exhaustive hyperparameter optimization rather than feature engineering. Since I joined the competition only 5 days before the submission deadline, I prioritized tuning the LightGBM configuration, running over 10,000 Optuna trials with rigorous cross-validation. This process yielded a robust GBDT model capable of effectively handling the dataset’s class imbalance and categorical features without additional preprocessing. Although resource constraints forced me to stop training early, the approach still resulted in an okay final standing of 805/3367, placing me in the top 25%.
 
 ## Approach
 
